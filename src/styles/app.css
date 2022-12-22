@@ -1,0 +1,250 @@
+/**/
+/*Header Styling*/
+.search-bar {
+  width:100%;
+  height: 30px;
+  border-radius: 2px;
+  border: 1px solid;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 12px;
+  margin-right: 0px;
+  background-color: lightgrey;
+}
+.sign-up-button {
+  background-color: black;
+  color: white;
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 4px;
+  width:auto;
+}
+.sign-up-button:hover{
+  background-color: darkgrey;
+
+}
+
+#log {
+  width: 100%;
+  padding-top: 0px;
+}
+#uls {
+  display:flex;
+  padding-left: 0px;
+  list-style: none;
+  align-items: baseline;
+  justify-content: flex-end;
+}
+#dash-link {
+  padding-right: 20px;
+}
+/*End of Header Styling*/
+/*Home Page Styling*/
+.banner-parent {
+  display: flex;
+  height:auto;
+  align-items: center;
+  justify-content: center;
+
+}
+.banner-img{
+  width:100%;
+  height:550px;
+  object-fit: cover;
+  filter: brightness(50%);
+  z-index: 0;
+}
+.banner-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  border: 0px solid green;
+  line-height: 20px;
+  font-size: 32px;
+  color: white;
+  z-index: 1;
+}
+.credit-text {
+  position: absolute;
+  right: 20px;
+  bottom: 40px;
+  color: white;
+}
+#para-div {
+  width: 50%;
+  height: auto;
+  padding-left: 20px;
+}
+#para-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+.categories-parent {
+  margin: auto;
+  display: flex;
+  padding-left: 10px;
+}
+.categories-dropdown {
+  margin: 10px;
+  padding: 16px;
+  height: 50px;
+  width: auto;
+  border-radius: 5px;
+  color: white;
+  background-color: black;
+}
+.category-button {
+  margin: 10px;
+  width: auto;
+  background-color: black;
+  color: white;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 5px;
+}
+.category-button:hover{
+  background-color: darkgrey;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: grey;
+  color: white;
+  margin-top: 20px;
+}
+/*ENd of Home Page Styling*/
+/*Start of Card Styling*/
+.img-card-parent {
+  display: flex;
+
+  aspect-ratio: 1/1;
+  border: 0px solid green;
+}
+.card-img-1 {
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  width:auto;
+  height:auto;
+  overflow: hidden;
+  border: 1px solid darkgrey;
+  border-radius: 8px;
+
+
+}
+/*End of Card Styling*/
+
+/*Start of Login Page Styling*/
+#login-parent {
+  display: flex;
+  border: 0px solid red;
+  justify-content: center;
+  align-items: center;
+  height:50vw;
+}
+#login-box {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 425px;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5),
+  0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  border: 0px solid green;
+  border-radius: 5px;
+  padding: 20px;
+  justify-content: flex-start;
+
+}
+#input-fields {
+  width: 90%;
+  margin-top:5px;
+  border-radius: 3px;
+  border:1px solid;
+  border-color: grey;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 8px;
+}
+/*End of Login Page Styling*/
+
+/*Start of Image Viewer Page Styling*/
+.view-image-container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5),
+  0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+.view-image {
+  width:100%;
+  z-index:0;
+}
+.user-details-image-viewer{
+  display:flex;
+  align-items: flex-start;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5),
+  0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  padding-bottom: 40px;
+margin-top: 5px;
+}
+/*user details Styling*/
+#outer-div-user-details{
+  display:flex;
+  flex-flow: row;
+}
+#pfp-div{
+  display:flex;
+  align-items: flex-start;
+  width:25%;
+}
+#pfp-div > img{
+  display:flex;
+  aspect-ratio: 1/1;
+  width:100%;
+  border-radius: 50%;
+  justify-content: flex-start;
+  object-fit: cover;
+  margin-top: 20px;
+}
+#user-details-text{
+  display:flex;
+  flex-flow:column;
+  width:65%;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+#user-details-text > h2{
+  font-size: 20px;
+  letter-spacing: 0px;
+  font-weight: 500;
+  margin:0px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+#user-details-text > h4{
+  font-size: 15px;
+  font-weight: 400;
+  margin:0px;
+  margin-left: 5px;
+}
+#user-details{
+  width: 75%;
+  margin-left: 40px;
+}
+#profile-name {
+  letter-spacing: 5px;
+  font-weight: 600;
+}
+#profile-designation{
+  margin-top: 60px;
+  font-weight: 300;
+}
